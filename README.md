@@ -33,20 +33,20 @@ O desafio desse projeto se encontra no uso da biblioteca gráfica MiniLibX e no 
 <h2>☄ Um pouco sobre o código</h2>
 
 <p>
-O código foi dividido entre as etapas de inicialização (cub_init) e execução (cub_run).<br>
+O código foi dividido entre as etapas de inicialização (cub_init) e execução (cub_run).<br><br>
 <b>INICIALIZAÇÃO:</b> Nessa parte inicializavamos as estruturas, pegávamos as informações dos arquivos de configuração (.cub) e em seguida 
-as validávamos. Passado essa etapa com sucesso, vamos para a execução.<br>
+as validávamos. Passado essa etapa com sucesso, vamos para a execução.<br><br>
 <b>EXECUÇÃO:</b> Pegado todas as informações necessárias (e já verificadas) para gerar o labirinto, comecávamos a etapa de raycast.<br>
 A ideia básica por tras desse conceito está em lançar raios a partir de um ponto (jogador) até esses raios atingirem paredes. Com isso fazemos
 uma verificação de qual parede o jogador está vendo. Essa verificação é feita através da distância do jogador até o ponto de cruzamento do raio 
 e a parede. Essa distãncia também nos dá a altura da parede. (se você não aprendeu pitágoras até agora, chegou seu momento). Feito a escolha da 
 parede (vertical ou horizontal), vem a escolha da textura. Essa verificação é feita através do ângulo do raio lançado, assim sabemos para qual 
-direção cardial (N,S,E,W) o jogador está olhando.<br>
+direção cardial (N,S,E,W) o jogador está olhando.<br><br>
 Depois de todas essas etapas, montamos a imagem e a jogamos na tela. Isso se repete frame a frame.<br>
 </p>
 
+<h2>🗺️MAPAS (arquivos de configuração):</h2>
 <p>
-🗺️<b>MAPAS:</b><br>
 Os mapas são os arquivos de configuração (<arquivo>.cub). Eles precisam ser formatados da seguinte maneira:<br>
 TEXTURAS: elas devem indicar o sentido (NO, SO, WE, EA) e a textura que querem usar para aquela parede.<br>
 </p>
