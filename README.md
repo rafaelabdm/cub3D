@@ -27,6 +27,8 @@ This project is inspired by the Wolfenstein 3D game, which was the first FPS eve
 Nesse projeto criamos nosso próprio raycast! O propósito dele é melhorar nossas habilidades gráficas usando esse conceito.<br>
 O raycast é muito otimizado e isso faz com que ele funcione consumindo poucos recursos do computador, o que abriu caminho para 
 o jogo Wolfenstein 3D ser o primeiro FPS (visão em primeira pessoa) do mundo.<br>
+Aqui o objetivo é criar uma renderização dinâmica de um labirinto, podendo ser modificadas as texturas das paredes, as cores do chão e teto 
+e o próprio labirinto. Seguindo algumas regras, claro.<br><br>
 O desafio desse projeto se encontra no uso da biblioteca gráfica MiniLibX e no entendimento da matemática para gerar os frames em '3D'.<br>
 </p>
 
@@ -93,3 +95,7 @@ exemplo:
 <SUB>Você precisa da biblioteca da externa <i>MiniLibX</i> instalada.</SUB><br>
 <SUB>As texturas precisam ser 64x64 pixels.</SUB>
 </p>
+
+<h2>Exemplo de visualização:</h2>
+
+![lib](https://user-images.githubusercontent.com/102771790/232085869-175521f8-2de4-421d-8d93-c9191d4e1f8e.png)
